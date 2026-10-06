@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+
+  <!-- CSS: Hojas de estilos en cascada -->
+  <!-- selector: {} -->
+  <style>
+    *{
+      margin: 0;
+      padding: 0;
+    }
+    /* Solo se peude utilizar una vez */
+    #titulo{
+      color: blue;
+      text-align: center;
+      text-transform: uppercase; /* Mayusculas*/
+      font-weight: bold; /* Negrita */
+    }
+
+    /* Le afecta a todas las etiquetas <p> */
+    p {
+      color: violet;
+      text-align: center;
+      font-style: italic;
+      margin-top: 2em; /* 1em = 16px = 1M */
+      margin-bottom: 2em;
+    }
+
+    /* Clase que puede heredarse muchas veces */
+    .importante{
+      background-color: bisque;
+      border: 3px dashed black; /* dotted, solid, double, dashed */
+      padding: 1em; /* Espacio interno */ 
+    }
+
+    .caja{
+      background-color: aquamarine;
+      display: inline-block;
+      height: 60px;
+      padding-top: 40px;
+      text-align: center;
+      width: 100px;
+    }
+
+    .fondoimg{
+      background-image: url('./images/Captura\ de\ pantalla\ 2026-08-27\ 090046.png');
+      background-size: auto;
+      background-position: center;
+    }
+  </style>
+
+  <h1 id="titulo">Fundamentos CSS</h1>
+
+  <!-- atributo: valor; atributo: valor; -->
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam qui perferendis unde quae aliquam harum mollitia rem. Praesentium sed ullam, ipsum quis reiciendis 
+    totam corporis impedit atque omnis architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugiat aliquam necessitatibus quod minima, est recusandae explicabo 
+    eligendi a quasi sit unde quos exercitationem veniam distinctio aperiam et ipsam consequuntur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente temporibus eos 
+    accusantium illo voluptates rem maiores ratione dicta tenetur, impedit corrupti libero quo. Illo vero facilis sed nemo sapiente minus.
+  </p>
+  
+  <p>
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus quibusdam qui perferendis unde quae aliquam harum mollitia rem. Praesentium sed ullam, ipsum quis reiciendis 
+    totam corporis impedit atque omnis architecto. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus fugiat aliquam necessitatibus quod minima, est recusandae explicabo 
+    eligendi a quasi sit unde quos exercitationem veniam distinctio aperiam et ipsam consequuntur. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente temporibus eos 
+    accusantium illo voluptates rem maiores ratione dicta tenetur, impedit corrupti libero quo. Illo vero facilis sed nemo sapiente minus.
+  </p>
+  
+
+  <p class="importante fondoimg">
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repudiandae, unde deleniti nemo dolorum laboriosam odio harum libero at maxime id? Dolores facere deleniti dolorum incidunt 
+    repudiandae et repellat dicta quo! Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iure unde sequi nostrum neque sit non, quasi, animi quis fugit rerum libero earum odio. 
+    Laboriosam molestiae perspiciatis esse dignissimos neque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. In eligendi aspernatur ut ullam dolor tempora reprehenderit et quia, 
+    veniam quidem eum placeat aut fugiat optio ex, corrupti cum, sint earum.
+  </p>
+
+  <hr> <!-- Línea horizontal -->
+  <br> <!-- Salto de línea -->
+
+  <div class="caja">
+    Caja 1
+  </div>
+
+  <div class="caja">
+    Caja 2
+  </div>
+
+</body>
+</html>

@@ -1,0 +1,48 @@
+/* Contenedor */
+.table-container {
+    width: 100%;
+    overflow-x: auto;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+}
+
+/* Encabezado */
+thead {
+    background-color: #2c4358;
+    color: white;
+}
+
+thead th {
+    padding: 10px;
+    text-align: left;
+    font-size: 12px;
+}
+
+/* Celdas */
+tbody td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Filas cebreadas */
+tbody tr:nth-child(even) {
+    background-color: #f1f3f5;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}
+
+/* Efecto al pasar el mouse */
+tbody tr:hover {
+    background-color: #d9e7f5;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
